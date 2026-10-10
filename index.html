@@ -1,68 +1,39 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#ffffff">
-<title>EvidenceFeed</title>
-<link rel="manifest" href="manifest.json">
-<style>
-*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f5f7fa;color:#101828}
-.app{max-width:520px;margin:auto;min-height:100vh;background:white;padding-bottom:82px}
-header{position:sticky;top:0;background:#fffdd9;border-bottom:1px solid #eee;padding:14px 16px;z-index:3}
-.brand{font-weight:800;font-size:21px}.sub{font-size:12px;color:#667085}
-.tabs{display:flex;gap:8px;margin-top:12px}.tab{border:1px solid #d0d5dd;background:white;padding:8px 12px;border-radius:20px;font-weight:650}
-.tab.active{background:#101828;color:white}.card{margin:14px;border:1px solid #e4e7ec;border-radius:20px;overflow:hidden;box-shadow:0 3px 12px #0000000d}
-.hero{padding:22px;background:linear-gradient(145deg,#eaf7ff,#fff4df);min-height:210px;display:flex;flex-direction:column;justify-content:center}
-.tag{font-size:12px;font-weight:800;color:#175cd3}.hero h2{margin:8px 0;font-size:24px;line-height:1.1}.meta{color:#667085;font-size:13px}
-.content{padding:18px}.metric{font-size:32px;font-weight:850;margin:6px 0}.good{color:#067647}
-.row{display:flex;gap:10px}.pill{background:#f2f4f7;border-radius:14px;padding:10px;flex:1;font-size:13px}
-.actions{display:flex;justify-content:space-between;padding:0 18px 18px;color:#475467}
-nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);background:white;border-top:1px solid #eee;display:flex;justify-content:space-around;padding:10px 4px calc(10px + env(safe-area-inset-bottom));z-index:4}
-nav button{border:0;background:none;font-size:12px;color:#475467}.plus{font-size:28px!important}
-.screen{display:none;padding:14px}.screen.active{display:block}.feed.active{display:block}.feed{display:none}
-input,textarea{width:100%;padding:13px;border:1px solid #d0d5dd;border-radius:12px;margin:7px 0;font:inherit}
-.bigbtn{width:100%;border:0;border-radius:14px;padding:14px;background:#101828;color:white;font-weight:750;margin:6px 0}.secondary{background:#eef2f6;color:#101828}
-.upload{border:2px dashed #cbd5e1;border-radius:18px;padding:24px;text-align:center;margin:12px 0}
-.small{font-size:12px;color:#667085}.result{background:#f9fafb;border-radius:14px;padding:14px;margin-top:12px}
-</style>
-</head>
-<body><main class="app">
-<header><div class="brand">EvidenceFeed</div><div class="sub">Visual evidence, made for one.</div>
-<div class="tabs" id="readingTabs"><button class="tab active" data-mode="30">⚡ 30 sec</button><button class="tab" data-mode="3">📖 3 min</button><button class="tab" data-mode="10">🧠 10 min</button></div></header>
-
-<section id="feed" class="feed active">
-<div class="card">
- <div class="hero"><div class="tag" id="langtag">30 SEC · ENGLISH</div><h2>Thrombolysis during cardiac arrest with suspected pulmonary embolism</h2><div class="meta">Systematic review & meta-analysis · Example article</div></div>
- <div class="content" id="summary"></div>
- <div class="actions"><span>♡ Save</span><span>↗ Original article</span><span>⋯</span></div>
-</div>
-</section>
-
-<section id="search" class="screen"><h2>Search articles</h2><input placeholder="Title, DOI, PMID or clinical question"><button class="bigbtn">Search</button><div class="small">The production version will search PubMed/Crossref and the web.</div></section>
-
-<section id="add" class="screen"><h2>Add article</h2>
-<div class="upload"><div style="font-size:42px">📷</div><b>Find article from a photo</b><p class="small">Take/upload a screenshot, slide, article page or reference. The app will extract visible clues and search for possible matches.</p><input id="photo" type="file" accept="image/*" capture="environment"></div>
-<button class="bigbtn secondary" onclick="fakeIdentify()">Try photo identification</button>
-<div class="result" id="photoResult" style="display:none"><b>Prototype flow ready</b><br><span class="small">Photo → extract title/authors/journal/DOI → search → show possible matches → confirm → generate all 3 feeds.</span></div>
-<hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-<input placeholder="Paste DOI or PMID"><button class="bigbtn secondary">Add DOI / PMID</button>
-<input type="file" accept="application/pdf"><button class="bigbtn secondary">Add PDF</button>
-</section>
-
-<section id="saved" class="screen"><h2>Saved</h2><div class="result">Your saved articles will appear here.</div></section>
-
-<nav><button onclick="show('feed')">⌂<br>Feed</button><button onclick="show('search')">⌕<br>Search</button><button class="plus" onclick="show('add')">⊕</button><button onclick="show('saved')">♡<br>Saved</button></nav>
-</main>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><link rel="manifest" href="manifest.json"><title>EvidenceFeed</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f7;font:16px system-ui,Arial;color:#14213a}.app{max-width:650px;min-height:100vh;margin:auto;background:white;padding-bottom:85px}header{position:sticky;top:0;z-index:5;background:#fffde2;border-bottom:1px solid #eee;padding:16px}header h1{font-size:23px;margin:0}.muted{color:#667085;font-size:13px}.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}button{cursor:pointer;border:1px solid #cdd5df;border-radius:13px;background:white;padding:10px 12px;font-weight:650;color:#172b4d}button.active,.primary{background:#123c49;color:white;border-color:#123c49}.screen{display:none;padding:16px}.screen.active{display:block}.card{border:1px solid #e3e8ef;border-radius:18px;margin-bottom:14px;overflow:hidden;background:#fff}.hero{background:linear-gradient(130deg,#e8f5fc,#fff2dc);padding:22px}.hero h2{font-size:24px;margin:12px 0}.content{padding:18px;line-height:1.65}.content h3{margin-bottom:4px}.result{padding:16px;border:1px solid #e5e7eb;border-radius:14px;margin:10px 0}.result h3{margin:0 0 8px;font-size:17px}input{width:100%;border:1px solid #cdd5df;border-radius:12px;padding:14px;font-size:16px}a{color:#1766aa}nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:650px;width:100%;display:flex;justify-content:space-around;background:white;border-top:1px solid #ddd;padding:10px 4px 18px}nav button{border:0;font-size:13px}.status{padding:12px;background:#f1f5f9;border-radius:12px;margin:10px 0}.error{background:#fff0ed;color:#9b2417}.badge{display:inline-block;padding:4px 9px;background:#e8f0f8;border-radius:9px;font-size:12px}#loading{display:none}small{color:#667085}
+</style></head><body><div class="app"><header><h1>🧠 EvidenceFeed</h1><div class="muted">Visual evidence, made for one.</div><div class="row"><button id="m30" class="active" onclick="mode='30';renderArticle()">⚡ 30 sec</button><button id="m3" onclick="mode='3';renderArticle()">📖 3 min</button><button id="m10" onclick="mode='10';renderArticle()">🧠 10 min</button><button id="lang" onclick="toggleLanguage()">🌐 EN ⇄ PT</button></div></header>
+<section class="screen active" id="feed"><div id="articleArea"><div class="card"><div class="hero"><span class="badge">START HERE</span><h2>Find an article in Search</h2><p>Search PubMed, select a paper and open its evidence cards.</p></div></div></div></section>
+<section class="screen" id="search"><h2>Search PubMed</h2><form id="searchForm"><input id="query" placeholder="Title, PMID, DOI or keywords" required><button class="primary" style="margin-top:10px" type="submit">🔎 Search</button></form><div id="loading" class="status">Searching PubMed…</div><div id="searchStatus"></div><div id="results"></div></section>
+<section class="screen" id="saved"><h2>Saved articles</h2><div id="savedResults"></div></section>
+<section class="screen" id="add"><h2>Add an article</h2><p>Search by DOI, PMID or title in Search. Photo/PDF recognition will be added in a future version.</p><button onclick="show('search')">Open Search</button></section>
+<nav><button onclick="show('feed')">⌂<br>Feed</button><button onclick="show('search')">⌕<br>Search</button><button onclick="show('add')">⊕<br>Add</button><button onclick="show('saved')">♡<br>Saved</button></nav></div>
 <script>
-const copy={
-"30":`<h3>Clinical question</h3><p>Does thrombolysis during cardiac arrest from suspected PE improve clinically important outcomes?</p><div class="row"><div class="pill"><b>Design</b><br>Meta-analysis</div><div class="pill"><b>Focus</b><br>Cardiac arrest + PE</div></div><h3>Take-home</h3><p>Potential benefit must be interpreted alongside bleeding risk and certainty of evidence.</p>`,
-"3":`<h3>PICO</h3><p><b>P:</b> cardiac arrest with suspected/confirmed PE. <b>I:</b> systemic thrombolysis. <b>C:</b> no thrombolysis. <b>O:</b> ROSC, survival and bleeding.</p><h3>How to read it</h3><p>Look beyond ROSC: survival to discharge and neurologic outcome matter. Check heterogeneity, study design and confidence intervals before translating pooled effects to practice.</p><h3>Limitations</h3><p>Mixed populations, treatment protocols and observational evidence may affect certainty.</p>`,
-"10":`<h3>Leitura aprofundada</h3><p><b>Pergunta clínica:</b> qual é o efeito da trombólise sistêmica durante a parada cardiorrespiratória quando TEP é a causa suspeita ou confirmada?</p><h3>Como analisar o artigo</h3><p>O aplicativo apresentará desenho, critérios de inclusão, características da população, trombolítico e dose, desfechos, medidas de efeito e IC95%. Em metanálises, também explicará heterogeneidade e forest plots.</p><h3>Interpretação crítica</h3><p>Resultados intermediários, como RCE (ROSC), serão separados de desfechos centrados no paciente. Limitações metodológicas, risco de viés e aplicabilidade serão discutidos em português, mantendo termos médicos relevantes em inglês entre parênteses.</p><h3>Aplicação</h3><p>Ao conectar a busca real, esta seção também poderá confrontar os achados com guidelines e literatura recente.</p>`
-};
-function setMode(m){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.mode===m));document.getElementById('summary').innerHTML=copy[m];document.getElementById('langtag').textContent=m==='10'?'10 MIN · PORTUGUÊS':(m==='3'?'3 MIN · ENGLISH':'30 SEC · ENGLISH');localStorage.setItem('mode',m)}
-document.querySelectorAll('.tab').forEach(x=>x.onclick=()=>setMode(x.dataset.mode));
-function show(id){document.querySelectorAll('.screen,.feed').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active')}
-function fakeIdentify(){document.getElementById('photoResult').style.display='block'}
-setMode(localStorage.getItem('mode')||'30');
-if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+'use strict';
+let mode='30',language=null,current=null,originalHtml='',translatedCache={}, saved=JSON.parse(localStorage.getItem('ef_saved')||'[]');
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function show(id){document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('active',s.id===id));if(id==='saved')renderSaved()}
+function status(msg,err=false){$('searchStatus').innerHTML='<div class="status '+(err?'error':'')+'">'+esc(msg)+'</div>'}
+async function getJSON(url){const r=await fetch(url,{headers:{Accept:'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);return r.json()}
+const api='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
+async function searchPubMed(term){let q=term.trim();if(/^10\.\d{4,9}\//i.test(q))q=q+'[doi]';else if(/^\d{5,10}$/.test(q))q=q+'[uid]';
+const p=new URLSearchParams({db:'pubmed',term:q,retmode:'json',retmax:'15',sort:'relevance',tool:'evidencefeed_personal'});
+const s=await getJSON(api+'esearch.fcgi?'+p);const ids=s.esearchresult?.idlist||[];if(!ids.length)return [];
+const d=await getJSON(api+'esummary.fcgi?'+new URLSearchParams({db:'pubmed',id:ids.join(','),retmode:'json',tool:'evidencefeed_personal'}));
+return ids.map(id=>{let a=d.result?.[id]||{};return {pmid:id,title:a.title||'Untitled',journal:a.fulljournalname||a.source||'',date:a.pubdate||'',authors:(a.authors||[]).slice(0,3).map(x=>x.name).join(', '),doi:(a.articleids||[]).find(x=>x.idtype==='doi')?.value||''}})}
+$('searchForm').onsubmit=async e=>{e.preventDefault();$('results').innerHTML='';$('loading').style.display='block';$('searchStatus').innerHTML='';try{const items=await searchPubMed($('query').value);status(items.length?`${items.length} results found.`:'No articles found. Try another query.');$('results').innerHTML=items.map((a,i)=>`<div class="result"><h3>${esc(a.title)}</h3><p class="muted">${esc(a.authors)} · ${esc(a.journal)} · ${esc(a.date)} · PMID ${esc(a.pmid)}</p><button onclick="openResult(${i})">Read article</button> <a target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(a.pmid)}/">PubMed ↗</a></div>`).join('');window.lastResults=items}catch(err){status('Search failed ('+err.message+'). Check connection or try again later. If PubMed blocks browser requests, a small proxy/backend will be required.',true)}finally{$('loading').style.display='none'}};
+async function openResult(i){const a=window.lastResults[i];if(a)await openArticle(a)}
+async function fetchAbstract(pmid){const url=api+'efetch.fcgi?'+new URLSearchParams({db:'pubmed',id:pmid,retmode:'xml',tool:'evidencefeed_personal'});const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const xml=new DOMParser().parseFromString(await r.text(),'application/xml');return [...xml.querySelectorAll('AbstractText')].map(n=>((n.getAttribute('Label')||'')?n.getAttribute('Label')+': ':'')+n.textContent).join('\n\n')}
+async function openArticle(a){current={...a,abstract:''};language=mode==='10'?'pt':'en';translatedCache={};show('feed');$('articleArea').innerHTML='<div class="status">Loading abstract…</div>';try{current.abstract=await fetchAbstract(a.pmid)}catch(e){current.abstract='';}renderArticle()}
+function renderArticle(){['30','3','10'].forEach(x=>$('m'+x).classList.toggle('active',mode===x));if(!current)return;language=language|| (mode==='10'?'pt':'en');const a=current;const abstract=a.abstract||'Abstract unavailable from PubMed. Open the original article to read its content.';
+// Do not invent quantitative results. These are structured reading views based on source abstract, NOT AI summaries.
+const en=mode==='30'?`<h3>Clinical question</h3><p>${esc(a.title)}</p><h3>Source abstract</h3><p>${esc(abstract.slice(0,750))}${abstract.length>750?'…':''}</p>`:mode==='3'?`<h3>Article information</h3><p>${esc(a.journal)} · ${esc(a.date)}</p><h3>Abstract</h3><p>${esc(abstract)}</p><h3>Critical appraisal</h3><p>Review population, design, effect estimates, confidence intervals and limitations in the full paper before applying findings.</p>`:`<h3>Detailed reading</h3><p>${esc(abstract)}</p>`;
+const pt=mode==='10'?`<h3>Leitura aprofundada — texto original</h3><p>${esc(abstract)}</p><h3>Nota metodológica</h3><p>Esta versão apresenta o resumo original. A geração de uma análise crítica completa ainda requer integração de IA e acesso ao texto do artigo.</p>`:en;
+originalHtml=language==='pt'?pt:en;
+$('articleArea').innerHTML=`<div class="card"><div class="hero"><span class="badge">${esc(mode)} ${mode==='30'?'SEC':'MIN'} · ${language.toUpperCase()} · PUBMED</span><h2>${esc(a.title)}</h2><p class="muted">${esc(a.authors)} · ${esc(a.journal)} · ${esc(a.date)}</p></div><div class="content" id="articleText">${originalHtml.replaceAll('\n','<br>')}</div><div style="padding:16px"><button onclick="saveCurrent()">♡ Save</button> <a target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(a.pmid)}/">Original article ↗</a><p><small>Source: PubMed. No numerical findings are generated or inferred.</small></p></div></div>`;
+$('lang').textContent='🌐 '+(language==='en'?'EN → PT':'PT → EN');}
+async function toggleLanguage(){if(!current){alert('Select an article first.');return}const from=language|| (mode==='10'?'pt':'en'),to=from==='en'?'pt':'en';const el=$('articleText');if(!el)return;const key=current.pmid+'-'+mode+'-'+to;if(translatedCache[key]){el.innerHTML=translatedCache[key];language=to;$('lang').textContent='🌐 '+to.toUpperCase()+' → '+from.toUpperCase();return}
+const raw=el.innerText;el.textContent='Translating…';try{let chunks=raw.match(/[\s\S]{1,450}/g)||[];let parts=[];for(const chunk of chunks){const url='https://api.mymemory.translated.net/get?'+new URLSearchParams({q:chunk,langpair:from+'|'+to});const d=await getJSON(url);if(d.responseStatus!==200||!d.responseData?.translatedText)throw Error('Translation service unavailable');parts.push(d.responseData.translatedText)}const html='<p>'+parts.map(esc).join('</p><p>')+'</p>';translatedCache[key]=html;el.innerHTML=html;language=to;$('lang').textContent='🌐 '+to.toUpperCase()+' → '+from.toUpperCase()}catch(e){el.innerHTML=originalHtml+'<p class="status error">Translation unavailable right now. The original text was restored.</p>'}}
+function saveCurrent(){if(!current)return;if(!saved.some(a=>a.pmid===current.pmid)){saved.unshift(current);localStorage.setItem('ef_saved',JSON.stringify(saved))}alert('Saved on this device')}
+function renderSaved(){$('savedResults').innerHTML=saved.length?saved.map((a,i)=>`<div class="result"><h3>${esc(a.title)}</h3><p class="muted">${esc(a.journal)} · PMID ${esc(a.pmid)}</p><button onclick="openSaved(${i})">Open</button></div>`).join(''):'No saved articles yet.'}
+async function openSaved(i){await openArticle(saved[i])}
+if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js');
 </script></body></html>
