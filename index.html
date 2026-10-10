@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>EvidenceFeed</title>
+<link rel="manifest" href="manifest.json">
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f5f7fa;color:#101828}
+.app{max-width:520px;margin:auto;min-height:100vh;background:white;padding-bottom:82px}
+header{position:sticky;top:0;background:#fffdd9;border-bottom:1px solid #eee;padding:14px 16px;z-index:3}
+.brand{font-weight:800;font-size:21px}.sub{font-size:12px;color:#667085}
+.tabs{display:flex;gap:8px;margin-top:12px}.tab{border:1px solid #d0d5dd;background:white;padding:8px 12px;border-radius:20px;font-weight:650}
+.tab.active{background:#101828;color:white}.card{margin:14px;border:1px solid #e4e7ec;border-radius:20px;overflow:hidden;box-shadow:0 3px 12px #0000000d}
+.hero{padding:22px;background:linear-gradient(145deg,#eaf7ff,#fff4df);min-height:210px;display:flex;flex-direction:column;justify-content:center}
+.tag{font-size:12px;font-weight:800;color:#175cd3}.hero h2{margin:8px 0;font-size:24px;line-height:1.1}.meta{color:#667085;font-size:13px}
+.content{padding:18px}.metric{font-size:32px;font-weight:850;margin:6px 0}.good{color:#067647}
+.row{display:flex;gap:10px}.pill{background:#f2f4f7;border-radius:14px;padding:10px;flex:1;font-size:13px}
+.actions{display:flex;justify-content:space-between;padding:0 18px 18px;color:#475467}
+nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);background:white;border-top:1px solid #eee;display:flex;justify-content:space-around;padding:10px 4px calc(10px + env(safe-area-inset-bottom));z-index:4}
+nav button{border:0;background:none;font-size:12px;color:#475467}.plus{font-size:28px!important}
+.screen{display:none;padding:14px}.screen.active{display:block}.feed.active{display:block}.feed{display:none}
+input,textarea{width:100%;padding:13px;border:1px solid #d0d5dd;border-radius:12px;margin:7px 0;font:inherit}
+.bigbtn{width:100%;border:0;border-radius:14px;padding:14px;background:#101828;color:white;font-weight:750;margin:6px 0}.secondary{background:#eef2f6;color:#101828}
+.upload{border:2px dashed #cbd5e1;border-radius:18px;padding:24px;text-align:center;margin:12px 0}
+.small{font-size:12px;color:#667085}.result{background:#f9fafb;border-radius:14px;padding:14px;margin-top:12px}
+</style>
+</head>
+<body><main class="app">
+<header><div class="brand">EvidenceFeed</div><div class="sub">Visual evidence, made for one.</div>
+<div class="tabs" id="readingTabs"><button class="tab active" data-mode="30">⚡ 30 sec</button><button class="tab" data-mode="3">📖 3 min</button><button class="tab" data-mode="10">🧠 10 min</button></div></header>
+
+<section id="feed" class="feed active">
+<div class="card">
+ <div class="hero"><div class="tag" id="langtag">30 SEC · ENGLISH</div><h2>Thrombolysis during cardiac arrest with suspected pulmonary embolism</h2><div class="meta">Systematic review & meta-analysis · Example article</div></div>
+ <div class="content" id="summary"></div>
+ <div class="actions"><span>♡ Save</span><span>↗ Original article</span><span>⋯</span></div>
+</div>
+</section>
+
+<section id="search" class="screen"><h2>Search articles</h2><input placeholder="Title, DOI, PMID or clinical question"><button class="bigbtn">Search</button><div class="small">The production version will search PubMed/Crossref and the web.</div></section>
+
+<section id="add" class="screen"><h2>Add article</h2>
+<div class="upload"><div style="font-size:42px">📷</div><b>Find article from a photo</b><p class="small">Take/upload a screenshot, slide, article page or reference. The app will extract visible clues and search for possible matches.</p><input id="photo" type="file" accept="image/*" capture="environment"></div>
+<button class="bigbtn secondary" onclick="fakeIdentify()">Try photo identification</button>
+<div class="result" id="photoResult" style="display:none"><b>Prototype flow ready</b><br><span class="small">Photo → extract title/authors/journal/DOI → search → show possible matches → confirm → generate all 3 feeds.</span></div>
+<hr style="border:0;border-top:1px solid #eee;margin:20px 0">
+<input placeholder="Paste DOI or PMID"><button class="bigbtn secondary">Add DOI / PMID</button>
+<input type="file" accept="application/pdf"><button class="bigbtn secondary">Add PDF</button>
+</section>
+
+<section id="saved" class="screen"><h2>Saved</h2><div class="result">Your saved articles will appear here.</div></section>
+
+<nav><button onclick="show('feed')">⌂<br>Feed</button><button onclick="show('search')">⌕<br>Search</button><button class="plus" onclick="show('add')">⊕</button><button onclick="show('saved')">♡<br>Saved</button></nav>
+</main>
+<script>
+const copy={
+"30":`<h3>Clinical question</h3><p>Does thrombolysis during cardiac arrest from suspected PE improve clinically important outcomes?</p><div class="row"><div class="pill"><b>Design</b><br>Meta-analysis</div><div class="pill"><b>Focus</b><br>Cardiac arrest + PE</div></div><h3>Take-home</h3><p>Potential benefit must be interpreted alongside bleeding risk and certainty of evidence.</p>`,
+"3":`<h3>PICO</h3><p><b>P:</b> cardiac arrest with suspected/confirmed PE. <b>I:</b> systemic thrombolysis. <b>C:</b> no thrombolysis. <b>O:</b> ROSC, survival and bleeding.</p><h3>How to read it</h3><p>Look beyond ROSC: survival to discharge and neurologic outcome matter. Check heterogeneity, study design and confidence intervals before translating pooled effects to practice.</p><h3>Limitations</h3><p>Mixed populations, treatment protocols and observational evidence may affect certainty.</p>`,
+"10":`<h3>Leitura aprofundada</h3><p><b>Pergunta clínica:</b> qual é o efeito da trombólise sistêmica durante a parada cardiorrespiratória quando TEP é a causa suspeita ou confirmada?</p><h3>Como analisar o artigo</h3><p>O aplicativo apresentará desenho, critérios de inclusão, características da população, trombolítico e dose, desfechos, medidas de efeito e IC95%. Em metanálises, também explicará heterogeneidade e forest plots.</p><h3>Interpretação crítica</h3><p>Resultados intermediários, como RCE (ROSC), serão separados de desfechos centrados no paciente. Limitações metodológicas, risco de viés e aplicabilidade serão discutidos em português, mantendo termos médicos relevantes em inglês entre parênteses.</p><h3>Aplicação</h3><p>Ao conectar a busca real, esta seção também poderá confrontar os achados com guidelines e literatura recente.</p>`
+};
+function setMode(m){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.mode===m));document.getElementById('summary').innerHTML=copy[m];document.getElementById('langtag').textContent=m==='10'?'10 MIN · PORTUGUÊS':(m==='3'?'3 MIN · ENGLISH':'30 SEC · ENGLISH');localStorage.setItem('mode',m)}
+document.querySelectorAll('.tab').forEach(x=>x.onclick=()=>setMode(x.dataset.mode));
+function show(id){document.querySelectorAll('.screen,.feed').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active')}
+function fakeIdentify(){document.getElementById('photoResult').style.display='block'}
+setMode(localStorage.getItem('mode')||'30');
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script></body></html>
