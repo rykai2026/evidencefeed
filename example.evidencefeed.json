@@ -1,0 +1,206 @@
+{
+  "schema": "evidencefeed-1.0",
+  "id": "example-rct-001",
+  "title": "Example scientific article",
+  "citation": "Authors. Journal. Year;Volume:Pages. DOI: ...",
+  "tags": [
+    "RCT",
+    "Emergency Medicine"
+  ],
+  "content": {
+    "en": {
+      "30": {
+        "cards": [
+          {
+            "title": "Clinical question",
+            "type": "question",
+            "text": "What question did the study test?"
+          },
+          {
+            "title": "Study design",
+            "type": "flow",
+            "items": [
+              "Population",
+              "Intervention",
+              "Comparator"
+            ]
+          },
+          {
+            "title": "Main result",
+            "type": "number",
+            "text": "Effect size + 95% CI"
+          },
+          {
+            "title": "Take-home",
+            "type": "good",
+            "text": "Concise evidence-based conclusion."
+          }
+        ]
+      },
+      "3": {
+        "cards": [
+          {
+            "title": "Why this matters",
+            "type": "plain",
+            "text": "Clinical context."
+          },
+          {
+            "title": "PICO",
+            "type": "flow",
+            "items": [
+              "Population",
+              "Intervention",
+              "Comparator"
+            ]
+          },
+          {
+            "title": "Methods",
+            "type": "plain",
+            "text": "Design and protocol."
+          },
+          {
+            "title": "Primary outcome",
+            "type": "number",
+            "text": "Effect + 95% CI"
+          },
+          {
+            "title": "Safety",
+            "type": "warning",
+            "text": "Adverse events."
+          },
+          {
+            "title": "Limitations",
+            "type": "warning",
+            "text": "Main limitations."
+          },
+          {
+            "title": "Clinical bottom line",
+            "type": "good",
+            "text": "Practical interpretation."
+          }
+        ]
+      },
+      "10": {
+        "sections": [
+          {
+            "heading": "Clinical context",
+            "text": "Detailed background."
+          },
+          {
+            "heading": "Methods",
+            "text": "Detailed methods."
+          },
+          {
+            "heading": "Statistics and results",
+            "text": "Detailed statistical interpretation."
+          },
+          {
+            "heading": "Critical appraisal",
+            "text": "Bias, limitations and applicability."
+          },
+          {
+            "heading": "Practice implications",
+            "text": "What should and should not change."
+          }
+        ]
+      }
+    },
+    "pt": {
+      "30": {
+        "cards": [
+          {
+            "title": "Pergunta clínica",
+            "type": "question",
+            "text": "Qual pergunta o estudo testou?"
+          },
+          {
+            "title": "Desenho do estudo",
+            "type": "flow",
+            "items": [
+              "População",
+              "Intervenção",
+              "Comparador"
+            ]
+          },
+          {
+            "title": "Resultado principal",
+            "type": "number",
+            "text": "Medida de efeito + IC 95%"
+          },
+          {
+            "title": "Mensagem principal",
+            "type": "good",
+            "text": "Conclusão concisa baseada nas evidências."
+          }
+        ]
+      },
+      "3": {
+        "cards": [
+          {
+            "title": "Por que importa",
+            "type": "plain",
+            "text": "Contexto clínico."
+          },
+          {
+            "title": "PICO",
+            "type": "flow",
+            "items": [
+              "População",
+              "Intervenção",
+              "Comparador"
+            ]
+          },
+          {
+            "title": "Métodos",
+            "type": "plain",
+            "text": "Desenho e protocolo."
+          },
+          {
+            "title": "Desfecho primário",
+            "type": "number",
+            "text": "Efeito + IC 95%"
+          },
+          {
+            "title": "Segurança",
+            "type": "warning",
+            "text": "Eventos adversos."
+          },
+          {
+            "title": "Limitações",
+            "type": "warning",
+            "text": "Principais limitações."
+          },
+          {
+            "title": "Conclusão clínica",
+            "type": "good",
+            "text": "Interpretação prática."
+          }
+        ]
+      },
+      "10": {
+        "sections": [
+          {
+            "heading": "Contexto clínico",
+            "text": "Introdução detalhada."
+          },
+          {
+            "heading": "Métodos",
+            "text": "Metodologia detalhada."
+          },
+          {
+            "heading": "Estatística e resultados",
+            "text": "Interpretação estatística detalhada."
+          },
+          {
+            "heading": "Análise crítica",
+            "text": "Vieses, limitações e aplicabilidade."
+          },
+          {
+            "heading": "Aplicação prática",
+            "text": "O que deve e não deve mudar."
+          }
+        ]
+      }
+    }
+  }
+}

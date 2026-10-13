@@ -1,20 +1,14 @@
-# EvidenceFeed v4
+# EvidenceFeed v4.1 — ChatGPT Import
 
-## New ingestion flow
-EvidenceFeed v4 removes DOI/title/link search and screenshot identification. The only ingestion method is a complete scientific article PDF.
+This version removes PDF analysis from the website. The app does not require an AI backend or API key.
 
-Desired production flow:
-1. Upload full PDF.
-2. Secure backend sends/reads the full article with an AI model.
-3. AI interprets methods, statistics, results, tables/figures, limitations and implications.
-4. Generate all three modes automatically:
-   - 30 sec: visual Instagram-like cards
-   - 3 min: expanded visual cards
-   - 10 min: deep structured analysis
-5. EN/PT toggle remains available.
+Workflow:
+1. Send the complete scientific article PDF to ChatGPT.
+2. Ask ChatGPT to generate the EvidenceFeed import file.
+3. Download the `.evidencefeed.json` file.
+4. Open EvidenceFeed → Import → choose the file.
+5. The article is saved locally in the browser and becomes available in 30 sec, 3 min and 10 min modes, in EN/PT.
 
-## Important
-This ZIP contains the GitHub Pages front-end and the complete PDF upload workflow UI. GitHub Pages is static hosting, so it cannot securely contain a private AI API key. The Analyze button therefore cannot perform real AI analysis until a secure backend endpoint is connected.
+To update GitHub Pages, replace index.html, manifest.json and sw.js in the repository root.
 
-## GitHub update
-Replace `index.html`, `manifest.json`, and `sw.js` in the repository root and commit. After GitHub Pages deploys, hard-refresh the site.
+`example.evidencefeed.json` documents the import format and can be used to test the importer.

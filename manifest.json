@@ -3,7 +3,7 @@
   "short_name": "EvidenceFeed",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f4f5f7",
+  "background_color": "#f3f5f8",
   "theme_color": "#ffffff",
-  "description": "Full-PDF scientific article visual evidence reader"
+  "description": "Import AI-generated scientific article summaries for visual reading."
 }
