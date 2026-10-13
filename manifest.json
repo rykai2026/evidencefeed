@@ -5,5 +5,5 @@
   "display": "standalone",
   "background_color": "#f3f5f8",
   "theme_color": "#ffffff",
-  "description": "Import AI-generated scientific article summaries for visual reading."
+  "description": "Visual scientific evidence reader with quizzes and spaced review."
 }
