@@ -1,13 +1,11 @@
-# EvidenceFeed v4.2
+# EvidenceFeed v4.2.1
 
-New:
-- 30 sec, 3 min, 10 min, Questions and Review tabs.
-- Multiple-choice questions with immediate feedback and explanation.
-- Each v4.2 article can carry 15 review flashcards per language.
-- Review mixes cards only from articles marked ♥ Saved.
-- Review deck is shuffled and can be reshuffled.
-- Direct ChatGPT import links are supported through a compressed `#import=` payload.
-- Manual `.evidencefeed.json` import remains supported.
-- Existing imported v4.1 articles remain readable; regenerate them as v4.2 to add quiz/review content.
+Hotfix for direct ChatGPT import.
 
-Deploy by replacing index.html, manifest.json and sw.js in GitHub Pages.
+- Adds `#import64=` direct import using plain URL-safe Base64.
+- Does not depend on browser gzip/DecompressionStream for the new links.
+- Keeps manual `.evidencefeed.json` import.
+- Keeps 30 sec, 3 min, 10 min, Questions and Review.
+- Review uses 15 cards per saved article.
+
+Replace `index.html`, `manifest.json` and `sw.js` in GitHub Pages.
