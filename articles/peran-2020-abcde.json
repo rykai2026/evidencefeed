@@ -1,0 +1,641 @@
+{
+  "schema": "evidencefeed-1.1",
+  "id": "peran-2020-abcde",
+  "title": "ABCDE cognitive aid tool in patient assessment",
+  "citation": "Peran D, et al. BMC Emerg Med. 2020;20:95. doi:10.1186/s12873-020-00390-3",
+  "saved": false,
+  "content": {
+    "en": {
+      "30": {
+        "cards": [
+          {
+            "title": "Clinical question",
+            "text": "Does an ABCDE cognitive aid improve simulated assessment?",
+            "type": "question"
+          },
+          {
+            "title": "Design",
+            "text": "48 paramedic students; pre-post simulation.",
+            "type": "plain"
+          },
+          {
+            "title": "Steps completed",
+            "text": "804 → 868 | OR 1.17 (95% CI 1.02–1.35), p=0.023",
+            "type": "number"
+          },
+          {
+            "title": "Correct order",
+            "text": "220 → 338 | OR 1.68 (95% CI 1.40–2.02), p<0.0001",
+            "type": "number"
+          },
+          {
+            "title": "Time",
+            "text": "No significant prolongation (p=0.09).",
+            "type": "good"
+          },
+          {
+            "title": "Take-home",
+            "text": "Promising simulation evidence; larger randomized validation is needed.",
+            "type": "good"
+          }
+        ]
+      },
+      "3": {
+        "cards": [
+          {
+            "title": "Population",
+            "text": "48 paramedic students.",
+            "type": "plain"
+          },
+          {
+            "title": "Intervention",
+            "text": "Single-page ABCDE cognitive aid.",
+            "type": "plain"
+          },
+          {
+            "title": "Comparison",
+            "text": "Scenario without aid, then scenario with aid.",
+            "type": "plain"
+          },
+          {
+            "title": "Completed steps",
+            "text": "804 vs 868; OR 1.17; p=0.023.",
+            "type": "plain"
+          },
+          {
+            "title": "Correct sequence",
+            "text": "220 vs 338; OR 1.68; p<0.0001.",
+            "type": "plain"
+          },
+          {
+            "title": "Time",
+            "text": "6.88 vs 5.79 min; p=0.09.",
+            "type": "plain"
+          },
+          {
+            "title": "Statistics",
+            "text": "Odds ratios and Mann–Whitney U.",
+            "type": "plain"
+          },
+          {
+            "title": "Key limitation",
+            "text": "Learning/order effect cannot be excluded.",
+            "type": "plain"
+          },
+          {
+            "title": "Setting",
+            "text": "Simulation, not real patient care.",
+            "type": "plain"
+          },
+          {
+            "title": "Interpretation",
+            "text": "Promising process improvement, not proof of better patient outcomes.",
+            "type": "plain"
+          }
+        ]
+      },
+      "10": {
+        "sections": [
+          {
+            "heading": "Background",
+            "text": "ABCDE structures initial assessment; the study tested a cognitive aid."
+          },
+          {
+            "heading": "Design",
+            "text": "Multicenter pre-post pilot simulation. The aid was developed with three modified Delphi rounds."
+          },
+          {
+            "heading": "Participants",
+            "text": "48 paramedic students."
+          },
+          {
+            "heading": "Comparison",
+            "text": "Participants first assessed without the aid and later with it; order was not randomized."
+          },
+          {
+            "heading": "Outcomes",
+            "text": "Completed steps, correct sequence, and assessment duration."
+          },
+          {
+            "heading": "Completeness",
+            "text": "804 vs 868 steps; OR 1.17, 95% CI 1.02–1.35; p=0.023."
+          },
+          {
+            "heading": "Sequencing",
+            "text": "220 vs 338 correctly ordered steps; OR 1.68, 95% CI 1.40–2.02; p<0.0001."
+          },
+          {
+            "heading": "Time",
+            "text": "Median 6.88 vs 5.79 min; p=0.09, not statistically significant."
+          },
+          {
+            "heading": "Statistics",
+            "text": "Odds ratios for proportions; Mann–Whitney U for duration."
+          },
+          {
+            "heading": "Limitations",
+            "text": "Small sample, students, simulation, no randomization/blinding, possible learning effect."
+          },
+          {
+            "heading": "Applicability",
+            "text": "Useful educational signal, but no evidence here for morbidity or mortality benefit."
+          },
+          {
+            "heading": "Bottom line",
+            "text": "The aid improved completeness and sequencing without significant time penalty; larger randomized studies are needed."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "What was the population?",
+          "options": [
+            "48 paramedic students",
+            "480 physicians",
+            "48 ICU nurses",
+            "120 EMTs"
+          ],
+          "correct": 0,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "What was the design?",
+          "options": [
+            "RCT",
+            "Pre-post simulation pilot",
+            "Case-control",
+            "Meta-analysis"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Completed steps changed from:",
+          "options": [
+            "804 to 868",
+            "868 to 804",
+            "220 to 338",
+            "No change"
+          ],
+          "correct": 0,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Correct-order steps changed from:",
+          "options": [
+            "804 to 868",
+            "220 to 338",
+            "48 to 95",
+            "No change"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Was time significantly prolonged?",
+          "options": [
+            "Yes",
+            "No",
+            "Not measured",
+            "Only in one center"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Test for duration?",
+          "options": [
+            "t test",
+            "ANOVA",
+            "Mann–Whitney U",
+            "Chi-square"
+          ],
+          "correct": 2,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Important bias?",
+          "options": [
+            "Learning/order effect",
+            "Spectrum bias",
+            "Verification bias",
+            "Publication bias"
+          ],
+          "correct": 0,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Real patients?",
+          "options": [
+            "Yes",
+            "No, simulation",
+            "Only trauma",
+            "Only cardiac arrest"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Does it prove survival benefit?",
+          "options": [
+            "Yes",
+            "No",
+            "Only adults",
+            "Only students"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        },
+        {
+          "question": "Best conclusion?",
+          "options": [
+            "Replace training",
+            "Promising; needs randomized validation",
+            "Harmful",
+            "Always faster"
+          ],
+          "correct": 1,
+          "explanation": "Review the study design and results."
+        }
+      ],
+      "review": [
+        {
+          "front": "Participants",
+          "back": "48 paramedic students"
+        },
+        {
+          "front": "Design",
+          "back": "Multicenter pre-post pilot simulation"
+        },
+        {
+          "front": "Aid development",
+          "back": "Three modified Delphi rounds"
+        },
+        {
+          "front": "Completed steps",
+          "back": "804 vs 868; OR 1.17"
+        },
+        {
+          "front": "Correct-order steps",
+          "back": "220 vs 338; OR 1.68"
+        },
+        {
+          "front": "Time",
+          "back": "6.88 vs 5.79 min; p=0.09"
+        },
+        {
+          "front": "Main benefit",
+          "back": "Better completeness and sequencing"
+        },
+        {
+          "front": "Randomized order?",
+          "back": "No"
+        },
+        {
+          "front": "Learning effect?",
+          "back": "Cannot be excluded"
+        },
+        {
+          "front": "Real patients?",
+          "back": "No, simulation"
+        },
+        {
+          "front": "Experienced clinicians?",
+          "back": "No, students"
+        },
+        {
+          "front": "Sample size calculated?",
+          "back": "No"
+        },
+        {
+          "front": "Mortality benefit?",
+          "back": "Cannot be inferred"
+        },
+        {
+          "front": "Generalizability",
+          "back": "Limited by simulation/student sample"
+        },
+        {
+          "front": "Bottom line",
+          "back": "Promising; larger randomized validation needed"
+        }
+      ]
+    },
+    "pt": {
+      "30": {
+        "cards": [
+          {
+            "title": "Pergunta clínica",
+            "text": "Um auxílio ABCDE melhora a avaliação simulada?",
+            "type": "question"
+          },
+          {
+            "title": "Desenho",
+            "text": "48 estudantes de paramedicina; simulação pré-pós.",
+            "type": "plain"
+          },
+          {
+            "title": "Etapas realizadas",
+            "text": "804 → 868 | OR 1,17 (IC95% 1,02–1,35), p=0,023",
+            "type": "number"
+          },
+          {
+            "title": "Ordem correta",
+            "text": "220 → 338 | OR 1,68 (IC95% 1,40–2,02), p<0,0001",
+            "type": "number"
+          },
+          {
+            "title": "Tempo",
+            "text": "Sem prolongamento significativo (p=0,09).",
+            "type": "good"
+          },
+          {
+            "title": "Mensagem principal",
+            "text": "Evidência promissora em simulação; precisa validação randomizada maior.",
+            "type": "good"
+          }
+        ]
+      },
+      "3": {
+        "cards": [
+          {
+            "title": "População",
+            "text": "48 estudantes de paramedicina.",
+            "type": "plain"
+          },
+          {
+            "title": "Intervenção",
+            "text": "Auxílio cognitivo ABCDE de uma página.",
+            "type": "plain"
+          },
+          {
+            "title": "Comparação",
+            "text": "Cenário sem auxílio, depois cenário com auxílio.",
+            "type": "plain"
+          },
+          {
+            "title": "Etapas realizadas",
+            "text": "804 vs 868; OR 1,17; p=0,023.",
+            "type": "plain"
+          },
+          {
+            "title": "Sequência correta",
+            "text": "220 vs 338; OR 1,68; p<0,0001.",
+            "type": "plain"
+          },
+          {
+            "title": "Tempo",
+            "text": "6,88 vs 5,79 min; p=0,09.",
+            "type": "plain"
+          },
+          {
+            "title": "Estatística",
+            "text": "Odds ratios e Mann–Whitney U.",
+            "type": "plain"
+          },
+          {
+            "title": "Limitação principal",
+            "text": "Efeito de aprendizado/ordem não pode ser excluído.",
+            "type": "plain"
+          },
+          {
+            "title": "Cenário",
+            "text": "Simulação, não atendimento real.",
+            "type": "plain"
+          },
+          {
+            "title": "Interpretação",
+            "text": "Melhora de processo promissora, sem prova de melhores desfechos clínicos.",
+            "type": "plain"
+          }
+        ]
+      },
+      "10": {
+        "sections": [
+          {
+            "heading": "Contexto",
+            "text": "O ABCDE estrutura a avaliação inicial; o estudo testou um auxílio cognitivo."
+          },
+          {
+            "heading": "Desenho",
+            "text": "Piloto multicêntrico de simulação pré-pós. O auxílio foi desenvolvido em três rodadas Delphi modificadas."
+          },
+          {
+            "heading": "Participantes",
+            "text": "48 estudantes de paramedicina."
+          },
+          {
+            "heading": "Comparação",
+            "text": "Primeiro sem auxílio e depois com auxílio; a ordem não foi randomizada."
+          },
+          {
+            "heading": "Desfechos",
+            "text": "Etapas realizadas, sequência correta e duração da avaliação."
+          },
+          {
+            "heading": "Completude",
+            "text": "804 vs 868 etapas; OR 1,17, IC95% 1,02–1,35; p=0,023."
+          },
+          {
+            "heading": "Sequenciamento",
+            "text": "220 vs 338 etapas na ordem correta; OR 1,68, IC95% 1,40–2,02; p<0,0001."
+          },
+          {
+            "heading": "Tempo",
+            "text": "Mediana 6,88 vs 5,79 min; p=0,09, sem diferença significativa."
+          },
+          {
+            "heading": "Estatística",
+            "text": "Odds ratios para proporções; Mann–Whitney U para duração."
+          },
+          {
+            "heading": "Limitações",
+            "text": "Amostra pequena, estudantes, simulação, sem randomização/cegamento e possível efeito de aprendizado."
+          },
+          {
+            "heading": "Aplicabilidade",
+            "text": "Sinal educacional útil, mas sem evidência aqui de benefício em morbidade ou mortalidade."
+          },
+          {
+            "heading": "Conclusão",
+            "text": "Melhorou completude e sequência sem penalidade significativa de tempo; estudos randomizados maiores são necessários."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Qual foi a população?",
+          "options": [
+            "48 estudantes de paramedicina",
+            "480 médicos",
+            "48 enfermeiros de UTI",
+            "120 socorristas"
+          ],
+          "correct": 0,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Qual foi o desenho?",
+          "options": [
+            "ECR",
+            "Piloto de simulação pré-pós",
+            "Caso-controle",
+            "Metanálise"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "As etapas realizadas mudaram de:",
+          "options": [
+            "804 to 868",
+            "868 to 804",
+            "220 to 338",
+            "No change"
+          ],
+          "correct": 0,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "As etapas na ordem correta mudaram de:",
+          "options": [
+            "804 to 868",
+            "220 to 338",
+            "48 to 95",
+            "No change"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "O tempo aumentou significativamente?",
+          "options": [
+            "Sim",
+            "Não",
+            "Não medido",
+            "Só em um centro"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Teste usado para duração?",
+          "options": [
+            "t test",
+            "ANOVA",
+            "Mann–Whitney U",
+            "Chi-square"
+          ],
+          "correct": 2,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Viés importante?",
+          "options": [
+            "Efeito de aprendizado/ordem",
+            "Viés de espectro",
+            "Viés de verificação",
+            "Viés de publicação"
+          ],
+          "correct": 0,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Pacientes reais?",
+          "options": [
+            "Sim",
+            "Não, simulação",
+            "Só trauma",
+            "Só PCR"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Prova benefício em sobrevida?",
+          "options": [
+            "Sim",
+            "Não",
+            "Só adultos",
+            "Só estudantes"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        },
+        {
+          "question": "Melhor conclusão?",
+          "options": [
+            "Substitui treinamento",
+            "Promissor; precisa validação randomizada",
+            "Prejudicial",
+            "Sempre mais rápido"
+          ],
+          "correct": 1,
+          "explanation": "Revise o desenho e os resultados do estudo."
+        }
+      ],
+      "review": [
+        {
+          "front": "Participantes",
+          "back": "48 estudantes de paramedicina"
+        },
+        {
+          "front": "Desenho",
+          "back": "Piloto multicêntrico de simulação pré-pós"
+        },
+        {
+          "front": "Desenvolvimento",
+          "back": "Três rodadas Delphi modificadas"
+        },
+        {
+          "front": "Etapas realizadas",
+          "back": "804 vs 868; OR 1,17"
+        },
+        {
+          "front": "Ordem correta",
+          "back": "220 vs 338; OR 1,68"
+        },
+        {
+          "front": "Tempo",
+          "back": "6,88 vs 5,79 min; p=0,09"
+        },
+        {
+          "front": "Benefício principal",
+          "back": "Maior completude e melhor sequência"
+        },
+        {
+          "front": "Ordem randomizada?",
+          "back": "Não"
+        },
+        {
+          "front": "Efeito de aprendizado?",
+          "back": "Não pode ser excluído"
+        },
+        {
+          "front": "Pacientes reais?",
+          "back": "Não, simulação"
+        },
+        {
+          "front": "Profissionais experientes?",
+          "back": "Não, estudantes"
+        },
+        {
+          "front": "Cálculo amostral?",
+          "back": "Não"
+        },
+        {
+          "front": "Benefício em mortalidade?",
+          "back": "Não pode ser inferido"
+        },
+        {
+          "front": "Generalização",
+          "back": "Limitada pela simulação e estudantes"
+        },
+        {
+          "front": "Mensagem final",
+          "back": "Promissor; precisa validação randomizada maior"
+        }
+      ]
+    }
+  }
+}
