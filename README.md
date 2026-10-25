@@ -1,11 +1,9 @@
-# EvidenceFeed v4.2.1
+# EvidenceFeed v4.3
 
-Hotfix for direct ChatGPT import.
+## Installable PWA
+Includes 192x192 and 512x512 app icons, manifest, and service worker.
 
-- Adds `#import64=` direct import using plain URL-safe Base64.
-- Does not depend on browser gzip/DecompressionStream for the new links.
-- Keeps manual `.evidencefeed.json` import.
-- Keeps 30 sec, 3 min, 10 min, Questions and Review.
-- Review uses 15 cards per saved article.
+## Article sync
+Put `.json` article files inside `articles/` and add each filename to `articles/index.json`. The app fetches them automatically from GitHub Pages.
 
-Replace `index.html`, `manifest.json` and `sw.js` in GitHub Pages.
+This package includes Peran 2020 as a test article.
