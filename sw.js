@@ -1,4 +1,4 @@
-const CACHE='evidencefeed-v4-3-1';
+const CACHE='evidencefeed-v4.3.2';
 const BASE='/evidencefeed/';
 const CORE=[BASE,BASE+'index.html',BASE+'manifest.json',BASE+'icon-192.png',BASE+'icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)));self.skipWaiting();});

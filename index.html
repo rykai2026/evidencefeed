@@ -39,4 +39,47 @@ async function syncArticles(){try{let r=await fetch("/evidencefeed/articles/inde
 async function directImport(){let h=location.hash;if(!h.startsWith("#import64=")&&!h.startsWith("#import="))return;try{let raw;if(h.startsWith("#import64=")){let b=h.slice(10).replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";let bytes=Uint8Array.from(atob(b),c=>c.charCodeAt(0));raw=new TextDecoder().decode(bytes)}else{let b=h.slice(8).replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";let bytes=Uint8Array.from(atob(b),c=>c.charCodeAt(0));let ds=new DecompressionStream("gzip"),stream=new Blob([bytes]).stream().pipeThrough(ds);raw=await new Response(stream).text()}await importArticle(JSON.parse(raw),true)}catch(e){alert("Could not import this EvidenceFeed link: "+e.message)}}
 $("lang").onclick=()=>{lang=lang==="en"?"pt":"en";localStorage.eflang=lang;$("lang").textContent="🌐 "+lang.toUpperCase();reviewDeck=[];render()};document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;localStorage.efmode=mode;quizIndex=0;if(mode==="review")reviewDeck=[];render()});document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{show(b.dataset.screen);if(b.dataset.screen==="library")renderLibrary()});function show(id){document.querySelectorAll(".screen,nav button").forEach(x=>x.classList.remove("on"));$(id).classList.add("on");document.querySelector('nav button[data-screen="'+id+'"]').classList.add("on")}
 $("lang").textContent="🌐 "+lang.toUpperCase();renderLibrary();render();syncArticles().then(()=>directImport());if("serviceWorker"in navigator)navigator.serviceWorker.register("/evidencefeed/sw.js",{scope:"/evidencefeed/"});
-</script></body></html>
+</script>
+<script>
+(async function evidenceFeedDeepLinkImport(){
+  try {
+    const params = new URLSearchParams(location.search);
+    const articleId = params.get("article");
+    if (!articleId) return;
+    if (!/^[a-z0-9-]+$/i.test(articleId)) throw new Error("Invalid article id");
+
+    const articleUrl = new URL("articles/" + articleId + ".json", location.href);
+    const res = await fetch(articleUrl.toString(), {cache:"no-store"});
+    if (!res.ok) throw new Error("Article not found (" + res.status + ")");
+    const incoming = await res.json();
+
+    const KEY = "ef_articles";
+    let current = [];
+    try { current = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch(e) {}
+    if (!Array.isArray(current)) current = [];
+
+    const incomingId = incoming.id || articleId;
+    const pos = current.findIndex(a => (a.id || "") === incomingId);
+    if (pos >= 0) {
+      const saved = !!current[pos].saved;
+      current[pos] = Object.assign({}, current[pos], incoming);
+      if (saved) current[pos].saved = true;
+    } else {
+      current.unshift(incoming);
+    }
+    localStorage.setItem(KEY, JSON.stringify(current));
+
+    params.delete("article");
+    const clean = location.pathname + (params.toString() ? "?" + params.toString() : "") + location.hash;
+    history.replaceState({}, "", clean);
+
+    alert("Artigo importado para o EvidenceFeed.");
+    location.reload();
+  } catch (err) {
+    console.error(err);
+    alert("Não foi possível importar o artigo: " + (err && err.message ? err.message : err));
+  }
+})();
+</script>
+
+</body></html>
