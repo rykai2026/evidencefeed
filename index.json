@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "id": "peran-2020-abcde",
+      "file": "peran-2020-abcde.json",
+      "title": "ABCDE cognitive aid tool in patient assessment",
+      "authors": "Peran et al.",
+      "year": 2020
+    }
+  ]
+}
