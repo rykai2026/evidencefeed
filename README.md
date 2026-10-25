@@ -1,9 +1,7 @@
-# EvidenceFeed v4.3
+# EvidenceFeed v4.3.1
 
-## Installable PWA
-Includes 192x192 and 512x512 app icons, manifest, and service worker.
+PWA compatibility update for GitHub Pages at `/evidencefeed/`.
 
-## Article sync
-Put `.json` article files inside `articles/` and add each filename to `articles/index.json`. The app fetches them automatically from GitHub Pages.
+Upload **all files and the `articles` folder** to the root of the `evidencefeed` repository.
 
-This package includes Peran 2020 as a test article.
+Important: GitHub's web uploader can upload the `articles` folder if you drag the whole folder from your computer into the upload area. Verify that `articles/` appears in the repository afterward.
