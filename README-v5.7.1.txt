@@ -1,0 +1,1 @@
+EvidenceFeed v5.7.1 — corrige erro de sintaxe da v5.7 que deixava Feed/Article vazios. JavaScript validado antes do empacotamento.
