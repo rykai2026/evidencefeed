@@ -1,0 +1,825 @@
+{
+  "id": "abedin-2021-wide-qrs-v5",
+  "title": "Differential diagnosis of wide QRS tachycardia: A review",
+  "shortTitle": "Wide QRS Tachycardia",
+  "authors": "Zainul Abedin",
+  "journal": "Journal of Arrhythmia",
+  "year": 2021,
+  "doi": "10.1002/joa3.12599",
+  "reels": [
+    {
+      "eyebrow": "ABEDIN • 2021",
+      "title": "Taquicardia de QRS largo: TV ou TSV com aberrância?",
+      "text": "A revisão aborda um dos diagnósticos eletrocardiográficos mais desafiadores: diferenciar taquicardia ventricular (TV) de taquicardia supraventricular (TSV) com condução aberrante."
+    },
+    {
+      "eyebrow": "DEFINIÇÃO",
+      "title": "QRS >120 ms + FC >100 bpm",
+      "text": "A revisão define taquicardia de QRS largo por QRS >120 ms em frequência cardíaca >100 bpm."
+    },
+    {
+      "eyebrow": "4 GRANDES CAUSAS",
+      "title": "Nem todo QRS largo é TV",
+      "text": "Principais possibilidades: TSV com bloqueio de ramo funcional ou persistente; TV; TSV com pré-excitação; e ritmo ventricular estimulado por marcapasso."
+    },
+    {
+      "eyebrow": "ABERRÂNCIA",
+      "title": "Por que o ramo direito aparece tanto?",
+      "text": "O ramo direito tem período refratário mais longo. Por isso, a aberrância funcional após aceleração súbita da frequência apresenta mais frequentemente morfologia de BRD."
+    },
+    {
+      "eyebrow": "FENÔMENO DE ASHMAN",
+      "title": "Ciclo longo → ciclo curto → QRS largo",
+      "text": "Especialmente na fibrilação atrial, um intervalo RR longo seguido de um curto pode produzir aberrância, frequentemente com morfologia de BRD e sem pausa compensatória ao final."
+    },
+    {
+      "eyebrow": "HISTÓRIA CLÍNICA",
+      "title": "IAM prévio pesa a favor de TV",
+      "text": "História de infarto prévio, insuficiência cardíaca ou angina aumenta a probabilidade de TV. A revisão destaca que contexto clínico deve ser integrado ao ECG."
+    },
+    {
+      "eyebrow": "PEGADINHA",
+      "title": "Pressão normal NÃO exclui TV",
+      "text": "A estabilidade hemodinâmica não define o mecanismo. TV pode ocorrer com pressão arterial normal, enquanto TSV com aberrância pode causar hipotensão."
+    },
+    {
+      "eyebrow": "DISSOCIAÇÃO AV",
+      "title": "Átrio e ventrículo marchando separados",
+      "text": "Mais QRS do que ondas P e ausência de relação fixa P–QRS favorecem fortemente TV. A ausência de dissociação AV, porém, não exclui TV."
+    },
+    {
+      "eyebrow": "CAPTURA E FUSÃO",
+      "title": "Dois achados clássicos de TV",
+      "text": "Batimento de captura é um QRS mais estreito intercalado entre complexos da TV. Batimento de fusão tem morfologia híbrida pela ativação simultânea supraventricular e ventricular."
+    },
+    {
+      "eyebrow": "QRS",
+      "title": ">140 ms favorece TV",
+      "text": "QRS muito largo, eixo superior direito ('northwest') e mudança do eixo frontal >40° em relação ao ritmo sinusal favorecem TV, mas nenhum desses achados deve ser usado isoladamente."
+    },
+    {
+      "eyebrow": "MORFOLOGIA DE BRD",
+      "title": "Olhe V1 e V6",
+      "text": "Com padrão de BRD, QRS trifásico positivo em V1 e R/S >1 em V6 favorecem TSV com aberrância. QRS monofásico em V1 e R/S <1 em V6 favorecem TV."
+    },
+    {
+      "eyebrow": "MORFOLOGIA DE BRE",
+      "title": "Notch e demora até o nadir da S",
+      "text": "Com padrão de BRE, entalhe na descida da S em V1/V2 e intervalo do início do QRS ao nadir da S >60 ms favorecem TV. qR ou R/S <1 em V6 também favorecem TV."
+    },
+    {
+      "eyebrow": "CONCORDÂNCIA PRECORDIAL",
+      "title": "V1→V6 todas na mesma direção",
+      "text": "Concordância positiva ou negativa nas precordiais favorece TV. Entretanto, concordância positiva também pode ocorrer na pré-excitação ventricular."
+    },
+    {
+      "eyebrow": "VERECKEI",
+      "title": "Vi/Vt ≤1 favorece TV",
+      "text": "Na TV, a ativação inicial pelo miocárdio tende a ser lenta e a terminal acelera ao alcançar o sistema His–Purkinje. Vi/Vt >1 favorece TSV; Vi/Vt ≤1 favorece TV."
+    },
+    {
+      "eyebrow": "BRUGADA",
+      "title": "RS >100 ms é uma pista",
+      "text": "O algoritmo de Brugada usa ausência/presença de RS nas precordiais, intervalo RS >100 ms, dissociação AV e morfologia de V1/V6. Estudos posteriores não reproduziram toda a acurácia originalmente relatada."
+    },
+    {
+      "eyebrow": "LIMITAÇÃO DOS ALGORITMOS",
+      "title": "Acurácia real é mais modesta",
+      "text": "Comparações independentes dos diferentes critérios e algoritmos encontraram acurácia diagnóstica em torno de 70–75%. História, exame físico e ECG basal continuam importantes."
+    },
+    {
+      "eyebrow": "PITFALLS",
+      "title": "Artefato, hipercalemia, drogas e derivações trocadas",
+      "text": "Artefatos, hipercalemia, antiarrítmicos classe IC, toxicidade por tricíclicos/antiepilépticos e inversão dos eletrodos dos braços podem confundir a interpretação."
+    },
+    {
+      "eyebrow": "TAKE-HOME",
+      "title": "Não procure uma única 'regra mágica'",
+      "text": "A mensagem final da revisão é integrar história, exame físico, medicamentos, ECG de 12 derivações no ritmo sinusal e durante a taquicardia, analisando múltiplos sinais e suas exceções."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual definição de WQRST é utilizada na revisão?",
+      "options": [
+        ">100 bpm com QRS >120 ms",
+        ">150 bpm com QRS >100 ms",
+        "QRS >140 ms independentemente da FC",
+        "Qualquer taquicardia com bloqueio de ramo"
+      ],
+      "answer": ">100 bpm com QRS >120 ms",
+      "comment": "A revisão caracteriza WQRST por QRS >120 ms com frequência cardíaca >100 bpm."
+    },
+    {
+      "id": 2,
+      "question": "Qual morfologia é mais comum na aberrância funcional?",
+      "options": [
+        "BRD",
+        "BRE",
+        "Bloqueio fascicular posterior",
+        "Pré-excitação"
+      ],
+      "answer": "BRD",
+      "comment": "O ramo direito tem período refratário mais longo, predispondo a aberrância com morfologia de BRD."
+    },
+    {
+      "id": 3,
+      "question": "O fenômeno de Ashman é classicamente associado a:",
+      "options": [
+        "Ciclo longo seguido de ciclo curto",
+        "Ciclo curto seguido de ciclo longo",
+        "Dissociação AV completa",
+        "QRS estreito após extrassístole"
+      ],
+      "answer": "Ciclo longo seguido de ciclo curto",
+      "comment": "Um RR longo seguido de RR curto pode encontrar o ramo ainda refratário e produzir QRS aberrante."
+    },
+    {
+      "id": 4,
+      "question": "Paciente hemodinamicamente estável pode apresentar TV?",
+      "options": [
+        "Sim",
+        "Não",
+        "Somente se QRS <120 ms",
+        "Somente na ausência de cardiopatia"
+      ],
+      "answer": "Sim",
+      "comment": "A pressão arterial e a estabilidade não distinguem de forma confiável TV de TSV com aberrância."
+    },
+    {
+      "id": 5,
+      "question": "Qual achado favorece fortemente TV?",
+      "options": [
+        "Dissociação AV",
+        "Pressão arterial normal",
+        "Alternância elétrica",
+        "Resposta sinusal à inspiração"
+      ],
+      "answer": "Dissociação AV",
+      "comment": "A dissociação entre atividade atrial e ventricular é um importante marcador de TV; sua ausência não exclui TV."
+    },
+    {
+      "id": 6,
+      "question": "Em morfologia de BRD, qual achado em V6 favorece TSV com aberrância?",
+      "options": [
+        "R/S >1",
+        "R/S <1",
+        "QS puro",
+        "qR obrigatório"
+      ],
+      "answer": "R/S >1",
+      "comment": "Na revisão, R/S >1 em V6 favorece TSV com aberrância; R/S <1 favorece TV."
+    },
+    {
+      "id": 7,
+      "question": "Concordância precordial durante WQRST sugere principalmente:",
+      "options": [
+        "TV",
+        "TSV sinusal",
+        "Flutter atrial obrigatório",
+        "Bloqueio AV de 1º grau"
+      ],
+      "answer": "TV",
+      "comment": "Concordância positiva ou negativa em V1–V6 é altamente sugestiva de TV, embora haja exceções como pré-excitação."
+    },
+    {
+      "id": 8,
+      "question": "No critério Vi/Vt, qual resultado favorece TV?",
+      "options": [
+        "Vi/Vt ≤1",
+        "Vi/Vt >2",
+        "Vi/Vt >1",
+        "Vi/Vt exatamente 3"
+      ],
+      "answer": "Vi/Vt ≤1",
+      "comment": "Ativação inicial relativamente lenta é compatível com origem miocárdica; Vi/Vt ≤1 favorece TV."
+    },
+    {
+      "id": 9,
+      "question": "No algoritmo de Brugada, intervalo RS >100 ms nas precordiais favorece:",
+      "options": [
+        "TV",
+        "TSV com aberrância",
+        "Ritmo sinusal",
+        "FA pré-excitada obrigatoriamente"
+      ],
+      "answer": "TV",
+      "comment": "Intervalo do início do QRS ao nadir da S >100 ms é um dos passos que favorecem TV."
+    },
+    {
+      "id": 10,
+      "question": "Qual é a principal mensagem da revisão sobre algoritmos?",
+      "options": [
+        "Devem ser integrados a outros achados",
+        "Um único algoritmo resolve todos os casos",
+        "História clínica é dispensável",
+        "Somente aVR deve ser analisada"
+      ],
+      "answer": "Devem ser integrados a outros achados",
+      "comment": "A revisão enfatiza análise meticulosa do ECG junto à história, exame e ECG basal, considerando limitações e exceções."
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "question": "Qual é o ponto de corte de QRS para WQRST na revisão?",
+      "options": [
+        "Mais de 120 ms",
+        "Mais de 80 ms",
+        "Mais de 100 ms",
+        "Mais de 200 ms"
+      ],
+      "answer": "Mais de 120 ms",
+      "comment": "WQRST é caracterizada por QRS >120 ms com FC >100 bpm."
+    },
+    {
+      "id": 2,
+      "question": "Quais são as quatro categorias principais de WQRST?",
+      "options": [
+        "TSV com aberrância, TV, TSV pré-excitada e ritmo ventricular estimulado",
+        "FA, flutter, TV e assistolia",
+        "TSV, bradicardia, BAV e TV",
+        "Somente TV e TSV"
+      ],
+      "answer": "TSV com aberrância, TV, TSV pré-excitada e ritmo ventricular estimulado",
+      "comment": "A revisão organiza o diferencial nessas quatro causas."
+    },
+    {
+      "id": 3,
+      "question": "TV originada no ventrículo esquerdo tende a produzir qual padrão?",
+      "options": [
+        "Morfologia de BRD",
+        "Morfologia de BRE",
+        "QRS estreito",
+        "BAV completo"
+      ],
+      "answer": "Morfologia de BRD",
+      "comment": "A ativação parte do VE e o padrão superficial tende a lembrar BRD."
+    },
+    {
+      "id": 4,
+      "question": "TV originada no ventrículo direito tende a produzir qual padrão?",
+      "options": [
+        "Morfologia de BRE",
+        "Morfologia de BRD",
+        "QRS estreito",
+        "Pré-excitação"
+      ],
+      "answer": "Morfologia de BRE",
+      "comment": "A ativação ventricular partindo do VD tende a produzir padrão de BRE."
+    },
+    {
+      "id": 5,
+      "question": "Por que a aberrância funcional tende a BRD?",
+      "options": [
+        "O ramo direito tem período refratário mais longo",
+        "O ramo esquerdo não possui período refratário",
+        "O nó AV bloqueia apenas o ramo esquerdo",
+        "Por causa do eixo elétrico"
+      ],
+      "answer": "O ramo direito tem período refratário mais longo",
+      "comment": "Isso o torna mais vulnerável à falha de condução após aceleração súbita."
+    },
+    {
+      "id": 6,
+      "question": "Qual sequência caracteriza Ashman?",
+      "options": [
+        "RR longo → RR curto → QRS largo",
+        "RR curto → RR longo → QRS estreito",
+        "RR fixo → pausa → QRS estreito",
+        "Somente RR curto"
+      ],
+      "answer": "RR longo → RR curto → QRS largo",
+      "comment": "O ciclo longo prolonga refratariedade e o impulso precoce seguinte pode conduzir com aberrância."
+    },
+    {
+      "id": 7,
+      "question": "Ashman frequentemente apresenta qual morfologia?",
+      "options": [
+        "BRD",
+        "BRE",
+        "BAV",
+        "WPW"
+      ],
+      "answer": "BRD",
+      "comment": "A revisão descreve QRS largo frequentemente com morfologia de BRD."
+    },
+    {
+      "id": 8,
+      "question": "Há pausa compensatória ao terminar o fenômeno de Ashman?",
+      "options": [
+        "Não",
+        "Sim, sempre",
+        "Somente na TV",
+        "Somente na FA"
+      ],
+      "answer": "Não",
+      "comment": "A revisão destaca ausência de pausa compensatória ao término."
+    },
+    {
+      "id": 9,
+      "question": "Aberrância dependente de aceleração é mais frequentemente de qual morfologia?",
+      "options": [
+        "BRE",
+        "BRD",
+        "QRS estreito",
+        "WPW"
+      ],
+      "answer": "BRE",
+      "comment": "A seção descreve BRE como mais comum na aberrância dependente de aceleração."
+    },
+    {
+      "id": 10,
+      "question": "Aberrância dependente de desaceleração ocorre quando:",
+      "options": [
+        "A frequência diminui",
+        "A frequência aumenta",
+        "Há apenas extrassístole ventricular",
+        "Há pré-excitação"
+      ],
+      "answer": "A frequência diminui",
+      "comment": "Ciclos mais longos associam-se à aberrância dependente de desaceleração."
+    },
+    {
+      "id": 11,
+      "question": "História de IAM prévio favorece qual diagnóstico?",
+      "options": [
+        "TV",
+        "TSV com aberrância",
+        "Taquicardia sinusal",
+        "Flutter obrigatório"
+      ],
+      "answer": "TV",
+      "comment": "Cicatriz miocárdica favorece mecanismos ventriculares, e a história de IAM tem forte valor preditivo no contexto discutido."
+    },
+    {
+      "id": 12,
+      "question": "Pressão arterial normal exclui TV?",
+      "options": [
+        "Não",
+        "Sim",
+        "Somente em jovens",
+        "Somente com QRS <140 ms"
+      ],
+      "answer": "Não",
+      "comment": "A revisão chama isso de uma concepção inadequada: TV pode ser hemodinamicamente tolerada."
+    },
+    {
+      "id": 13,
+      "question": "Ondas A em canhão sugerem:",
+      "options": [
+        "Dissociação AV",
+        "Pré-excitação",
+        "Hipercalemia",
+        "BRD isolado"
+      ],
+      "answer": "Dissociação AV",
+      "comment": "Contração atrial contra tricúspide fechada pode produzir ondas A em canhão."
+    },
+    {
+      "id": 14,
+      "question": "Variação da intensidade de B1 durante WQRST sugere:",
+      "options": [
+        "Dissociação AV",
+        "TSV obrigatoriamente",
+        "Pericardite",
+        "Isquemia subendocárdica"
+      ],
+      "answer": "Dissociação AV",
+      "comment": "A relação variável entre sístoles atrial e ventricular modifica a intensidade de B1."
+    },
+    {
+      "id": 15,
+      "question": "Manobras vagais podem terminar mais provavelmente:",
+      "options": [
+        "TSV dependente do nó AV",
+        "TV cicatricial",
+        "Ritmo ventricular estimulado",
+        "Hipercalemia"
+      ],
+      "answer": "TSV dependente do nó AV",
+      "comment": "Aumento do tônus vagal pode produzir bloqueio AV transitório e interromper algumas TSVs."
+    },
+    {
+      "id": 16,
+      "question": "Adenosina pode ajudar no flutter/taquicardia atrial com aberrância porque:",
+      "options": [
+        "Pode revelar atividade atrial ao bloquear transitoriamente o nó AV",
+        "Sempre converte flutter",
+        "Alarga o QRS",
+        "Induz dissociação AV ventricular"
+      ],
+      "answer": "Pode revelar atividade atrial ao bloquear transitoriamente o nó AV",
+      "comment": "Ela pode reduzir temporariamente a condução ventricular e expor ondas P ou de flutter."
+    },
+    {
+      "id": 17,
+      "question": "QRS >140 ms favorece:",
+      "options": [
+        "TV",
+        "TSV obrigatoriamente",
+        "FA pré-excitada apenas",
+        "Ritmo sinusal"
+      ],
+      "answer": "TV",
+      "comment": "É um dos achados eletrocardiográficos que favorecem TV."
+    },
+    {
+      "id": 18,
+      "question": "Eixo 'northwest' favorece:",
+      "options": [
+        "TV",
+        "TSV com aberrância",
+        "Taquicardia sinusal",
+        "BAV de 1º grau"
+      ],
+      "answer": "TV",
+      "comment": "Eixo superior direito é descrito como sugestivo de TV."
+    },
+    {
+      "id": 19,
+      "question": "Mudança do eixo frontal >40° em relação ao basal favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA isoladamente",
+        "Pericardite"
+      ],
+      "answer": "TV",
+      "comment": "A revisão relata esse deslocamento como frequentemente observado na TV."
+    },
+    {
+      "id": 20,
+      "question": "Morfologia e eixo idênticos ao ritmo sinusal tornam TV:",
+      "options": [
+        "Menos provável",
+        "Obrigatória",
+        "Mais provável",
+        "Indistinguível em todos os casos"
+      ],
+      "answer": "Menos provável",
+      "comment": "Se a WQRST reproduz exatamente QRS e eixo basais, TV torna-se improvável segundo a revisão."
+    },
+    {
+      "id": 21,
+      "question": "Alternância elétrica diferencia TV de TSV com aberrância?",
+      "options": [
+        "Não",
+        "Sim, sempre",
+        "Somente em V1",
+        "Somente se QRS >160 ms"
+      ],
+      "answer": "Não",
+      "comment": "A revisão afirma que alternância elétrica não ajuda nessa diferenciação."
+    },
+    {
+      "id": 22,
+      "question": "Mais QRS do que ondas P sugere:",
+      "options": [
+        "Dissociação AV e TV",
+        "TSV obrigatoriamente",
+        "Flutter 2:1",
+        "Ritmo sinusal"
+      ],
+      "answer": "Dissociação AV e TV",
+      "comment": "Atividade ventricular independente e mais rápida que a atrial é característica útil."
+    },
+    {
+      "id": 23,
+      "question": "Ausência de dissociação AV exclui TV?",
+      "options": [
+        "Não",
+        "Sim",
+        "Somente em idosos",
+        "Somente após IAM"
+      ],
+      "answer": "Não",
+      "comment": "A dissociação pode ser difícil de visualizar e pode haver condução retrógrada."
+    },
+    {
+      "id": 24,
+      "question": "Batimento de fusão resulta de:",
+      "options": [
+        "Despolarização ventricular simultânea por impulso supraventricular e TV",
+        "Somente impulso sinusal",
+        "Somente marcapasso",
+        "Bloqueio AV completo"
+      ],
+      "answer": "Despolarização ventricular simultânea por impulso supraventricular e TV",
+      "comment": "O QRS resultante tem aparência híbrida."
+    },
+    {
+      "id": 25,
+      "question": "Batimento de captura é:",
+      "options": [
+        "QRS mais estreito causado por impulso sinusal que captura o ventrículo durante TV",
+        "Extrassístole ventricular",
+        "Onda P bloqueada",
+        "QRS de marcapasso"
+      ],
+      "answer": "QRS mais estreito causado por impulso sinusal que captura o ventrículo durante TV",
+      "comment": "É um hallmark clássico de TV descrito na revisão."
+    },
+    {
+      "id": 26,
+      "question": "Em >35 anos, se não é possível firmar TSV com aberrância pela morfologia V1/V6, Griffith sugere assumir:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "A abordagem citada propõe TV como diagnóstico padrão nesse cenário."
+    },
+    {
+      "id": 27,
+      "question": "Com BRD, QRS trifásico positivo em V1 favorece:",
+      "options": [
+        "TSV com aberrância",
+        "TV",
+        "Pré-excitação obrigatória",
+        "Ritmo ventricular estimulado"
+      ],
+      "answer": "TSV com aberrância",
+      "comment": "Essa morfologia, sobretudo com eixo normal, é mais compatível com aberrância."
+    },
+    {
+      "id": 28,
+      "question": "Com BRD, R/S >1 em V6 favorece:",
+      "options": [
+        "TSV com aberrância",
+        "TV",
+        "Hipercalemia",
+        "WPW"
+      ],
+      "answer": "TSV com aberrância",
+      "comment": "É um dos critérios morfológicos citados para TSV com aberrância."
+    },
+    {
+      "id": 29,
+      "question": "Com BRD, QRS monofásico em V1 + R/S <1 em V6 favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "Ritmo sinusal",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "A combinação é descrita como sugestiva de TV."
+    },
+    {
+      "id": 30,
+      "question": "Na TSV com aberrância tipo BRE, a onda R inicial em V1 tende a ser:",
+      "options": [
+        "Estreita, <30 ms",
+        "Larga, >80 ms",
+        "Ausente em todos os casos",
+        "Sempre >100 ms"
+      ],
+      "answer": "Estreita, <30 ms",
+      "comment": "Uma R inicial estreita e descida suave favorecem aberrância com BRE."
+    },
+    {
+      "id": 31,
+      "question": "Notch na descida da S em V1/V2 com padrão de BRE favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Marcapasso"
+      ],
+      "answer": "TV",
+      "comment": "É um critério morfológico descrito para TV."
+    },
+    {
+      "id": 32,
+      "question": "Início do QRS ao nadir da S >60 ms em V1/V2 com BRE favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "Ritmo sinusal",
+        "BAV"
+      ],
+      "answer": "TV",
+      "comment": "Atraso inicial maior favorece origem ventricular."
+    },
+    {
+      "id": 33,
+      "question": "qR ou R/S <1 em V6 com padrão de BRE favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "Esses achados são listados como sugestivos de TV."
+    },
+    {
+      "id": 34,
+      "question": "Concordância precordial significa:",
+      "options": [
+        "QRS predominantemente na mesma polaridade de V1 a V6",
+        "PR constante",
+        "QRS <120 ms",
+        "P e QRS dissociados"
+      ],
+      "answer": "QRS predominantemente na mesma polaridade de V1 a V6",
+      "comment": "Não há transição R/S típica entre as precordiais."
+    },
+    {
+      "id": 35,
+      "question": "Concordância precordial positiva também pode ocorrer em:",
+      "options": [
+        "Pré-excitação ventricular/WPW",
+        "Somente TV",
+        "BAV de 1º grau",
+        "Taquicardia sinusal"
+      ],
+      "answer": "Pré-excitação ventricular/WPW",
+      "comment": "Essa é uma exceção importante ressaltada pela revisão."
+    },
+    {
+      "id": 36,
+      "question": "Ondas Q patológicas basais preservadas durante WQRST favorecem:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "Cicatriz miocárdica pode sustentar reentrada ventricular."
+    },
+    {
+      "id": 37,
+      "question": "WQRST com QRS mais estreito que o QRS basal pode sugerir:",
+      "options": [
+        "TV",
+        "TSV com aberrância",
+        "Ritmo sinusal",
+        "BAV"
+      ],
+      "answer": "TV",
+      "comment": "É uma pista contraintuitiva mencionada na revisão."
+    },
+    {
+      "id": 38,
+      "question": "Bloqueio de ramo contralateral ao bloqueio basal durante WQRST sugere:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "Ex.: BRE basal e padrão de BRD durante a taquicardia favorecem origem ventricular."
+    },
+    {
+      "id": 39,
+      "question": "R dominante em aVR durante WQRST sugere:",
+      "options": [
+        "TV",
+        "TSV obrigatoriamente",
+        "Ritmo sinusal",
+        "BAV"
+      ],
+      "answer": "TV",
+      "comment": "É um dos achados usados em critérios de Vereckei e outros."
+    },
+    {
+      "id": 40,
+      "question": "Vi/Vt >1 sugere:",
+      "options": [
+        "TSV",
+        "TV",
+        "Marcapasso",
+        "Hipercalemia"
+      ],
+      "answer": "TSV",
+      "comment": "Ativação inicial rápida pelo His–Purkinje favorece origem supraventricular."
+    },
+    {
+      "id": 41,
+      "question": "Vi/Vt ≤1 sugere:",
+      "options": [
+        "TV",
+        "TSV",
+        "Taquicardia sinusal",
+        "Flutter 2:1"
+      ],
+      "answer": "TV",
+      "comment": "Ativação inicial relativamente lenta através do miocárdio favorece TV."
+    },
+    {
+      "id": 42,
+      "question": "Mudança de taquicardia de QRS largo para QRS estreito favorece:",
+      "options": [
+        "TSV com aberrância",
+        "TV",
+        "Hipercalemia",
+        "Marcapasso"
+      ],
+      "answer": "TSV com aberrância",
+      "comment": "A normalização da condução intraventricular favorece mecanismo supraventricular."
+    },
+    {
+      "id": 43,
+      "question": "Wellens inclui como achados a favor de TV:",
+      "options": [
+        "Dissociação AV, QRS >140 ms e desvio do eixo à esquerda",
+        "Somente FC >150",
+        "PR curto e delta",
+        "QT longo"
+      ],
+      "answer": "Dissociação AV, QRS >140 ms e desvio do eixo à esquerda",
+      "comment": "Esses elementos são destacados na seção de critérios de Wellens."
+    },
+    {
+      "id": 44,
+      "question": "No Brugada, RS >100 ms favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "Flutter"
+      ],
+      "answer": "TV",
+      "comment": "É um dos passos clássicos do algoritmo."
+    },
+    {
+      "id": 45,
+      "question": "O algoritmo de Vereckei utiliza especialmente qual derivação?",
+      "options": [
+        "aVR",
+        "aVL",
+        "DIII",
+        "V6 apenas"
+      ],
+      "answer": "aVR",
+      "comment": "A versão atualizada enfatiza morfologia de aVR e Vi/Vt."
+    },
+    {
+      "id": 46,
+      "question": "Tempo do pico da onda R em DII ≥50 ms favorece:",
+      "options": [
+        "TV",
+        "TSV",
+        "FA",
+        "BAV"
+      ],
+      "answer": "TV",
+      "comment": "Esse é o critério descrito por Pava e colaboradores."
+    },
+    {
+      "id": 47,
+      "question": "Acurácia de diferentes algoritmos em comparações independentes foi aproximadamente:",
+      "options": [
+        "70–75%",
+        "99–100% em todos os estudos",
+        "30–40%",
+        "100%"
+      ],
+      "answer": "70–75%",
+      "comment": "A revisão alerta que o desempenho real é mais modesto do que algumas validações originais."
+    },
+    {
+      "id": 48,
+      "question": "Hipercalemia pode confundir porque:",
+      "options": [
+        "Alarga o QRS por lentificação da condução",
+        "Sempre estreita o QRS",
+        "Produz somente bradicardia sinusal",
+        "Impede qualquer onda T"
+      ],
+      "answer": "Alarga o QRS por lentificação da condução",
+      "comment": "Potássio extracelular elevado pode prolongar QRS e até associar-se a ausência de ondas P."
+    },
+    {
+      "id": 49,
+      "question": "Quais drogas podem dificultar a diferenciação ao alargar o QRS?",
+      "options": [
+        "Antiarrítmicos classe IC",
+        "Somente betabloqueadores",
+        "Somente nitratos",
+        "Diuréticos de alça"
+      ],
+      "answer": "Antiarrítmicos classe IC",
+      "comment": "A revisão destaca classe IC; também discute toxicidades por tricíclicos e antiepilépticos."
+    },
+    {
+      "id": 50,
+      "question": "Inversão dos eletrodos dos braços pode simular quais pistas de TV?",
+      "options": [
+        "Eixo northwest e R em aVR",
+        "Somente PR curto",
+        "Somente QT longo",
+        "Bloqueio AV completo"
+      ],
+      "answer": "Eixo northwest e R em aVR",
+      "comment": "A troca de derivações pode criar achados enganosos e levar a falso diagnóstico de TV."
+    }
+  ]
+}

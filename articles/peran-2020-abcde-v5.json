@@ -1,0 +1,780 @@
+{
+  "id": "peran-2020-abcde-v5",
+  "title": "ABCDE cognitive aid tool in patient assessment – development and validation in a multicenter pilot simulation study",
+  "shortTitle": "ABCDE Cognitive Aid",
+  "authors": "Peran D, Kodet J, Pekara J, et al.",
+  "journal": "BMC Emergency Medicine",
+  "year": 2020,
+  "doi": "10.1186/s12873-020-00390-3",
+  "reels": [
+    {
+      "eyebrow": "PERAN ET AL. • 2020",
+      "title": "ABCDE: uma ajuda cognitiva melhora a avaliação?",
+      "text": "48 estudantes de paramedicina participaram de um piloto multicêntrico em simulação."
+    },
+    {
+      "eyebrow": "POR QUE IMPORTA?",
+      "title": "ABCDE organiza prioridades",
+      "text": "A ferramenta foi criada para reduzir omissões e favorecer uma avaliação sistemática: Airway → Breathing → Circulation → Disability → Exposure."
+    },
+    {
+      "eyebrow": "DESENHO",
+      "title": "Estudo pré–pós em simulação",
+      "text": "Todos realizaram primeiro o cenário sem a ferramenta e depois com ela. Isso permite comparação, mas pode introduzir efeito de aprendizagem."
+    },
+    {
+      "eyebrow": "RESULTADO",
+      "title": "Mais etapas foram realizadas",
+      "text": "804 etapas sem a ferramenta → 868 com a ferramenta. OR 1,17; IC95% 1,02–1,35; p=0,023."
+    },
+    {
+      "eyebrow": "RESULTADO PRINCIPAL",
+      "title": "A sequência correta melhorou",
+      "text": "220 execuções em ordem correta → 338. OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "eyebrow": "TEMPO",
+      "title": "6,88 → 5,79 minutos",
+      "text": "A diferença de tempo não atingiu significância estatística: p=0,09."
+    },
+    {
+      "eyebrow": "LIMITAÇÃO",
+      "title": "Ordem dos cenários não randomizada",
+      "text": "Parte da melhora no segundo cenário pode decorrer de aprendizagem ou familiaridade."
+    },
+    {
+      "eyebrow": "GENERALIZAÇÃO",
+      "title": "Simulação não é desfecho clínico",
+      "text": "Participantes eram estudantes; o estudo avaliou processo, não mortalidade ou benefício clínico em pacientes reais."
+    },
+    {
+      "eyebrow": "TAKE-HOME",
+      "title": "Melhor organização, evidência ainda preliminar",
+      "text": "A ferramenta melhorou principalmente a execução dos passos na ordem correta. O estudo não prova melhora de desfechos clínicos."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 2,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 3,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 4,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 5,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 6,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 7,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 8,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 9,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 10,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 2,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 3,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 4,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 5,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 6,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 7,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 8,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 9,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 10,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    },
+    {
+      "id": 11,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 12,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 13,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 14,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 15,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 16,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 17,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 18,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 19,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 20,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    },
+    {
+      "id": 21,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 22,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 23,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 24,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 25,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 26,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 27,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 28,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 29,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 30,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    },
+    {
+      "id": 31,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 32,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 33,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 34,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 35,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 36,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 37,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 38,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 39,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 40,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    },
+    {
+      "id": 41,
+      "question": "Qual foi o principal benefício demonstrado?",
+      "answer": "Aumento da execução dos passos na ordem correta.",
+      "options": [
+        "Redução comprovada da mortalidade",
+        "Aumento da execução dos passos na ordem correta.",
+        "Redução significativa do tempo",
+        "Menor necessidade de procedimentos"
+      ],
+      "comment": "O maior efeito foi na sequência correta: OR 1,68; IC95% 1,40–2,02; p<0,0001."
+    },
+    {
+      "id": 42,
+      "question": "Quantos participantes foram incluídos?",
+      "answer": "48 estudantes de paramedicina.",
+      "options": [
+        "24 médicos",
+        "48 estudantes de paramedicina.",
+        "96 enfermeiros",
+        "804 pacientes"
+      ],
+      "comment": "O piloto incluiu 48 estudantes de paramedicina em cenários simulados."
+    },
+    {
+      "id": 43,
+      "question": "A redução do tempo foi estatisticamente significativa?",
+      "answer": "Não, p=0,09.",
+      "options": [
+        "Sim, p<0,001",
+        "Sim, p=0,023",
+        "Não, p=0,09.",
+        "Não, p=0,50"
+      ],
+      "comment": "O tempo caiu numericamente, mas p=0,09 não atingiu o limiar convencional de 0,05."
+    },
+    {
+      "id": 44,
+      "question": "Qual limitação favorece efeito de aprendizagem?",
+      "answer": "A ordem fixa dos cenários.",
+      "options": [
+        "Duplo-cego",
+        "A ordem fixa dos cenários.",
+        "Uso de placebo",
+        "Grande perda de seguimento"
+      ],
+      "comment": "Todos fizeram primeiro sem e depois com a ferramenta, sem randomização da ordem."
+    },
+    {
+      "id": 45,
+      "question": "O estudo demonstrou redução de mortalidade?",
+      "answer": "Não.",
+      "options": [
+        "Sim",
+        "Não.",
+        "Somente em idosos",
+        "Somente na intervenção"
+      ],
+      "comment": "Foram avaliados processos em simulação, não mortalidade."
+    },
+    {
+      "id": 46,
+      "question": "Qual foi o OR para sequência correta?",
+      "answer": "1,68.",
+      "options": [
+        "0,68",
+        "1,17",
+        "1,68.",
+        "6,88"
+      ],
+      "comment": "O OR foi 1,68, com IC95% 1,40–2,02."
+    },
+    {
+      "id": 47,
+      "question": "Qual foi o desenho?",
+      "answer": "Piloto multicêntrico pré–pós em simulação.",
+      "options": [
+        "Ensaio randomizado",
+        "Coorte de pacientes",
+        "Piloto multicêntrico pré–pós em simulação.",
+        "Revisão sistemática"
+      ],
+      "comment": "Os mesmos participantes foram comparados antes e depois da introdução da ajuda."
+    },
+    {
+      "id": 48,
+      "question": "Quantas etapas foram registradas sem e com a ferramenta?",
+      "answer": "804 e 868.",
+      "options": [
+        "220 e 338",
+        "804 e 868.",
+        "48 e 95",
+        "6,88 e 5,79"
+      ],
+      "comment": "O total aumentou de 804 para 868; OR 1,17; p=0,023."
+    },
+    {
+      "id": 49,
+      "question": "O que p<0,0001 NÃO significa?",
+      "answer": "Que há 99,99% de probabilidade de a intervenção funcionar.",
+      "options": [
+        "Que há 99,99% de probabilidade de a intervenção funcionar.",
+        "Que os dados são pouco compatíveis com a hipótese nula",
+        "Que é preciso considerar vieses",
+        "Que o resultado foi estatisticamente significativo"
+      ],
+      "comment": "O valor de p não fornece diretamente a probabilidade de a intervenção ser verdadeira ou funcionar."
+    },
+    {
+      "id": 50,
+      "question": "Por que generalizar com cautela?",
+      "answer": "Porque foram estudantes em simulação.",
+      "options": [
+        "Porque não houve diferença",
+        "Porque foram estudantes em simulação.",
+        "Porque houve milhares de pacientes",
+        "Porque ABCDE não foi usado"
+      ],
+      "comment": "Resultados de simulação com estudantes não equivalem automaticamente a benefício em pacientes reais."
+    }
+  ]
+}

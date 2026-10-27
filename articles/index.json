@@ -1,12 +1,13 @@
 {
-  "version": 1,
   "articles": [
     {
-      "id": "peran-2020-abcde",
-      "file": "peran-2020-abcde.json",
-      "title": "ABCDE cognitive aid tool in patient assessment",
-      "authors": "Peran et al.",
-      "year": 2020
+      "file": "peran-2020-abcde-v5.json",
+      "id": "peran-2020-abcde-v5"
+    },
+    {
+      "id": "abedin-2021-wide-qrs-v5",
+      "file": "abedin-2021-wide-qrs-v5.json",
+      "title": "Differential diagnosis of wide QRS tachycardia: A review"
     }
   ]
 }
