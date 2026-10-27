@@ -1,0 +1,2 @@
+EvidenceFeed v5
+Feed vertical estilo Reels; Questions com comentário; Review com 50 questões; Article Original/Português. Peran 2020 incluído para teste. Faça upload de TODO o conteúdo preservando a pasta articles.
