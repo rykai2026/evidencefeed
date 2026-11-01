@@ -8,6 +8,16 @@
       "id": "abedin-2021-wide-qrs-v5",
       "file": "abedin-2021-wide-qrs-v5.json",
       "title": "Differential diagnosis of wide QRS tachycardia: A review"
+    },
+    {
+      "id": "kataria-2026-venous-shock",
+      "file": "kataria-2026-venous-shock.json",
+      "title": "Venous dimension of shock: Integrating arterial inflow and venous back-pressure in hemodynamic assessment"
+    },
+    {
+      "id": "rao-2025-acs-guideline",
+      "file": "rao-2025-acs-guideline.json",
+      "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes"
     }
   ]
 }
