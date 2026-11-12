@@ -1,15 +1,12 @@
-EvidenceFeed v6.2 — PDF original incorporado
+EvidenceFeed v6.3 — IndexedDB
 
-Arquivos deste ZIP devem ficar na raiz do repositório GitHub Pages.
+Substitua os arquivos da raiz do repositório GitHub por estes arquivos.
+Não é necessária pasta articles/.
 
-Fluxo:
-1. Envie o PDF original ao ChatGPT.
-2. Receba um unico arquivo .efarticle.
-3. No EvidenceFeed, abra Article > + Adicionar artigo.
-4. O .efarticle pode conter o PDF original, a versao PT-BR, Reels, Questions e Review.
-5. Original abre prioritariamente o PDF incorporado ao pacote.
-
-Compatibilidade:
-- Mantem suporte aos .efarticle antigos.
-- Migra automaticamente artigos locais da v6.1 para a v6.2.
-- Artigos nao precisam ser enviados ao GitHub.
+Mudança principal:
+- artigos, imagens e PDFs incorporados são salvos no IndexedDB;
+- localStorage guarda somente o ID do artigo ativo;
+- evita o erro "exceeded the quota" da v6.2;
+- mantém importação manual de .efarticle;
+- Original abre o PDF incorporado no pacote;
+- migra artigos pequenos existentes da v6.1/v6.2 quando possível.
